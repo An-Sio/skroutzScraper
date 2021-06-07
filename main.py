@@ -11,8 +11,8 @@ import random
 import xlsxwriter
 
 def scraper(key):
-    # change path accordingly
-    PATH = "C:\\Users\\CrazyWolf\\Downloads\\chromedriver.exe"
+    # change path accordingly (keep double slashes)
+    PATH = "C:\\Users\\Whatever\\Downloads\\chromedriver.exe"
 
     # choose chrome as your webdriver and give the path it is installed as input
     driver = webdriver.Chrome(PATH)
