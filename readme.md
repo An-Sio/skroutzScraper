@@ -7,4 +7,6 @@ The script waits for a random small amount of time between scrapes, in order to 
 
 Although the script is used for washing machines only, you can change it in order to look for anything if you change line 30: search.send_keys("plynthrio") to search.send_keys(key), where key is the name used to save the excel output file.
 
+REMEMBER to change the path in the script according to the folder that contains the chromedriver.exe file, in order for the script to work properly!
+
 Thank you!
